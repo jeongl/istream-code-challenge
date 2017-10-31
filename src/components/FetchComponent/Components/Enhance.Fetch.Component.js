@@ -1,11 +1,6 @@
 import React from 'react';
 import { withProps, withState, withHandlers, compose } from 'recompose';
 import FetchComponent from './Style';
-import { main } from './practice';
-import BSTMain from './BST';
-
-main();
-BSTMain();
 
 const enhance = compose(
   withProps(() => ({
